@@ -4,7 +4,7 @@
     padding: 0;
     
 }
-html body{
+body{
     overflow-x: hidden;
 }
 
@@ -392,7 +392,7 @@ html body{
 }
 
 @media screen and (width<576px) {
-    html body{
+    body{
         overflow-x: hidden;
     }
     .container1{
@@ -443,10 +443,13 @@ html body{
     .ch12a h3,h6{
         padding-left: 3%;
     }
-    .ch7b{
+    .ch7b {
         display: grid;
         grid-template-columns: auto;
-        width:500vw;
+        
+    }
+    .ch7b img{
+        width: 100%;
     }
 
 
