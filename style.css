@@ -233,18 +233,22 @@ body{
 
 /* container8 styling */
 .container8{
-    padding:5%;
+    padding:2%;
 }
+
 .ch8b h1,.ch8b h3{
     text-align: center;
-    padding: 1%;
-    /* font-size: 1rem; */
+    /* padding: 1%; */
+
 }
 .ch8a{
     display:grid;
     grid-template-columns: auto auto auto;
-    gap: 2%;
+    gap: 1%;
     line-height: 1.5;
+}
+.ch8a img{
+    height: 60vh;
 }
 .child8 i{
     padding: 1%;
@@ -273,26 +277,6 @@ body{
 }
 /* carousel slide */
 
-.item00 {
-    background: url('https://images.unsplash.com/photo-1736185669739-36a8e70cb6c4?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzg2NzIyOTh8&ixlib=rb-4.0.3&q=85') 
-    no-repeat center center/cover;
-    height: 100vh;
-}
-.item01 {
-    background: url('https://images.unsplash.com/photo-1736147066581-95fa303553a0?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzg2NzIyOTh8&ixlib=rb-4.0.3&q=85') 
-    no-repeat center center/cover;
-    height: 100vh;
-}
-.item02 {
-    background: url('https://images.unsplash.com/photo-1735845078210-953081cee65d?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3Mzg2NzIyOTh8&ixlib=rb-4.0.3&q=85') 
-    no-repeat center center/cover;
-    height: 100vh;
-}
-.carousel-caption {
-    top: 43%;
-    padding-top: 0 !important;
-    padding-bottom: 0 !important;
-}
 
 .container10{
     margin: 2%;
