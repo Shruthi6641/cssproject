@@ -398,18 +398,7 @@ body,html{
 .imgt h5:hover{
     color:lightpink;
 }
-@media screen and ( width < 576px ) {
-    /* body{
-        margin: 0px;
-        padding: 0px;
-        width: 0px;
-    } */
-    body{
-        overflow: hidden;
-        
-    }
-    
-}
+
 
 @media screen and (width < 576px) {
     
